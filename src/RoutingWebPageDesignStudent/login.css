@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.bg {
+    background-image: url("E:/doc/wallpaper/studyon_header_20161.jpg");
+    height: 800px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h1css{
+    padding: 10px;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+.css_login {
+    height: 60%;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    color:#111;
+    background-color:rgba(255,255,255,.2);
+}
+#panelcss {
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 10px;
+    width: 500px;
+    color: white;
+    background: transparent;
+    background-color: rgba(255,255,255,.0);
+}
+.form-control {
+    border-radius: 50px;
+    background: transparent;
+}
+.login {
+    border-radius: 50px;
+    width:150px;
+}
+.reset {
+    border-radius: 50px;
+    width: 150px;
+}
+.spancss{
+    padding:10px;
+    font:10px;
+    font-size:x-small;
+    font-style:oblique;
+}
+
+@keyframes shake {
+    0% {
+      margin-left: 0rem;
+    }
+    25% {
+      margin-left: 0.5rem;
+    }
+    75% {
+      margin-left: -0.5rem;
+    }
+    100% {
+      margin-left: 0rem;
+    }
+  }
+  
+  input:invalid {
+    animation: shake 0.2s ease-in-out 0s 2;
+    box-shadow: 0 0 0.6rem #ff0000;
+  }

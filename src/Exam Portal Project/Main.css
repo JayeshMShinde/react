@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Prompt&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Prompt', sans-serif;
+    box-sizing: border-box;
+    background-color: #171622;
+    scroll-behavior: smooth;
+}
+
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.overflow-auto::-webkit-scrollbar {
+    display: none;
+}
+
+/*All Common CSS Propeties Code Opening*/
+
+#inputDropDown {
+    border-radius: 50px !important;
+    border: 3px solid #0eb9dd !important;
+    background-color: #110425;
+    color: #E6E6FA;
+}
+
+#btnCommon {
+    border-radius: 50px !important;
+    border: 3px solid !important;
+    transition: 0.4s;
+}
+
+#btnCommon:hover {
+    transform: scale(1.06);
+}
+
+/*All Common Properties Code Closing*/
+
+/* Main Component Css Code Opening*/
+
+.sidebar {
+    position: fixed;
+    background: #212030;
+    width: 17rem;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.sidebar h2 {
+    color: #E6E6FA;
+    background-color: #110425;
+    border: 3px groove #0eb9dd;
+    border-radius: 10px;
+    margin: 23px 10px 0px 10px;
+}
+
+.sidebar h2, marquee {
+    padding: 3px 12px 0 10px;
+}
+
+.sidebar h3 {
+    color: #E6E6FA;
+    padding: 10px;
+    border-radius: 10px;
+    border: groove 3px red;
+    text-align: center;
+    margin: 0 10px 0 10px;
+    background-color: #110425;
+    transition: 0.4s;
+}
+
+.sidebar ul, li {
+    color: #fbfafb;
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+}
+
+.sidebar li:hover {
+    background-color: #7a4ce9;
+    border-radius: 10px;
+}
+
+.link:focus {
+    color: #0eb9dd !important;
+}
+
+.mainbox {
+    margin-left: 17rem;
+    padding: 20px;
+}
+
+#popup1 {
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+#btnLogOut {
+    border: 3px solid red !important;
+    transition: 0.1s;
+    border-radius: 5px !important;
+}
+
+#btnLogOut:hover {
+    transform: scale(1.06);
+}
+
+.link {
+    text-decoration: none;
+    color: #E6E6FA !important;
+}
+
+label {
+    color: #E6E6FA !important;
+}
+
+/* Main Component CSS Code CLosing*/
+
+/* All Student Component CSS Code Opening*/
+
+#popupStudInput {
+    transition: 0.1s;
+}
+
+#popupStudInput:focus-within {
+    transform: scale(1.06);
+}
+
+#inputStud {
+    border-radius: 40px !important;
+    border: 3px solid #0eb9dd !important;
+    background-color: #110425 !important;
+    color: #E6E6FA !important;
+}
+
+#popupStudForm {
+    background-color: #212030;
+}
+
+#popupStudTable {
+    background-color: #212030;
+}
+
+th {
+    color: #68e365;
+}
+
+td {
+    color: #0eb9dd !important;
+}
+
+
+#buttonStudComp:hover {
+    transform: scale(1.08);
+    transition: 0.4s;
+}
+
+#buttonStudComp {
+    border-radius: 40px !important;
+    border: 3px solid !important;
+}
+
+.mb-3 {
+    text-align: center;
+}
+
+label {
+    color: #E6E6FA;
+}
+
+#studDetailCard {
+    background-color: #7a4de9 !important;
+    margin-top: 22px;
+    transition: 0.4s;
+}
+
+#studDetailCard:hover {
+    transform: scale(1.06);
+}
+
+#btnStudCard {
+    border-radius: 10px !important;
+    /* border: 2px solid #110425 !important; */
+}
+
+/*All Student Component CSS Code Closing*/
+
+/*Topic Component CSS Code Openig*/
+
+#popupTopicInput {
+    transition: 0.1s;
+}
+
+#popupTopicInput:focus-within {
+    transform: scale(1.02);
+}
+
+#topictable {
+    text-align: center;
+}
+
+#popupTopicForm {
+    background-color: #212030 !important;
+}
+
+#topicTable {
+    background-color: #212030 !important;
+}
+
+/*Topic Component CSS Code Closing*/
+
+/*Interview Question Component CSS Code Opening*/
+#ivForm{
+    background-color: #212030 !important;
+}
+
+#ivInput{
+    border: 3px solid #0eb9dd !important;
+    background-color: #110425 !important;
+    color: #E6E6FA !important;
+    border-radius: 50px !important;
+    transition: 0.1s;
+}
+
+#ivInput:focus{
+    transform: scale(1.01);
+}
+
+#ivButton{
+    border-radius: 40px !important;
+    border: 3px solid !important;
+}
+/*Login Form CSS Code Opening*/
+
+#mainDivLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 720px;
+    width: 100%;
+}
+
+#log-form {
+    height: 290px;
+    width: 350px;
+    border-radius: 10px !important;
+    text-align: center;
+    border: 3px groove #0eb9dd;
+    transition: 0.6s;
+    background-color: #212030;
+}
+
+#log-form:hover {
+    transform: scale(1.08);
+}
+
+#user {
+    color: #E6E6FA !important;
+    /* border-radius: 50px; */
+    border: 2px groove red !important;
+    transition: 0.4s;
+    background-color: #110425 !important;
+    text-align: center;
+}
+
+#user:focus-within {
+    transform: scale(1.04);
+}
+
+#userB {
+    color: #7a4ce9;
+}
+
+#loginBtn {
+    border: 2px solid !important;
+    border-radius: 10px !important;
+    transition: 0.4s;
+}
+
+#loginBtn:hover {
+    transform: scale(1.08);
+    /* background-color:#7a4ce9 ; */
+}
+
+#signupInput{
+    border: 2px solid #0eb9dd !important;
+    background-color: #110425;
+    color: #E6E6FA !important;
+}
+
+
+/*Login Form CSS Code Closing*/
+
+/*Content Topics Component CSS Code Opening Here*/
+
+/*---Student Section Css Code Opening---*/
+
+#studNavbar {
+    background-color: #171622;
+}
+
+
+.nav-link:hover {
+    color: #0eb9dd !important;
+}
+
+#parentDiv {
+    height: 655px;
+    width: 100%;
+}
+
+#childDiv {
+    background-image: url("/public/Images/onlineexam.png");
+    height: 200px;
+    width: 100px;
+}
+
+#studInfoCol1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#studInfoCol2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0eb9dd;
+}
+
+#studInfoCol2 {
+    height: 200px;
+    width: 200px;
+}
+
+/*Profile Section*/
+
+#mainCardProfile {
+    border: 4px inset #7a4ce9 !important;
+}
+
+#profileCardBody {
+    color: #E6E6FA;
+    background-color: #212030;
+}
+
+#profileInfoSection {
+    color: #E6E6FA;
+    padding: 45px;
+    text-align: left;
+}
+
+#addTopicModal {
+    text-align: center;
+    color: #7a4ce9;
+}
+
+/*Exam Component Css Code Opening*/
+
+#examSideBar{
+ position: fixed;
+ padding: 20px;
+ max-width: 17rem;
+ background-color: #212030;   
+ height: 100%;
+}
+
+#examSideBar button{
+    font-weight: 400;
+    background-color: #7a4ce9;
+    transition: 0.4s ease;
+    color: #E6E6FA;
+    /* border: 2px solid !important; */
+}
+
+#examSideBar button:hover{
+    transform: scale(1.08);
+}
+
+#examSideBar button:focus{
+    color: #E6E6FA !important;
+    background-color: #0eb9dd;
+    transform: scale(1.06);
+}
+
+#examTopics{
+    color: #E6E6FA !important;
+    border: 2px solid #0eb9dd !important;
+    background-color: #110425;
+}
+
+.examMainBox{
+    padding: 20px;
+ margin-left: 17rem;
+}
+
+#mcqCard{
+    background-color: #212030;
+    text-align: left;
+    transition: 0.1s;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#mcqCard:hover{
+    transform: scale(1.05);
+    background-color: #7a4ce9 !important;
+}
+#mcqCard .card-header{
+    color: #E6E6FA !important;
+}
+
+
+.form-check-label{
+    color: #E6E6FA !important;
+}
+
+#examTime{
+    text-align: center;
+    color: #68e365 !important;
+    font-weight: 500;
+    background-color: #110425;
+    border: none !important;
+}
+
+#examTimeDate{
+    text-align: center;
+    color: #68e365 !important;
+    font-weight: 500;
+    background-color: #110425;
+    border: none !important;
+}
+
+/*Dashboard Section Code CSS Code Opening*/
+
+#quizResutlInput{
+    border:3px solid #0eb9dd !important;
+    background-color: #212030 !important;
+    color: #68e365 !important;
+    text-align: center;
+}
+
+#solvedMcqCard{
+    background-color: #212030 !important;
+    margin: 0 auto;
+    color: #E6E6FA !important;
+}
